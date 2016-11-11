@@ -7,6 +7,6 @@ target 'HelloWorld' do
 
   # Pods for HelloWorld
 
-   pod ‘MobileCenter’
+pod 'MobileCenter', :podspec => 'https://mobilecentersdkdev.blob.core.windows.net/sdk/MobileCenter.podspec'
 
 end
